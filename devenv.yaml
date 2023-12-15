@@ -1,0 +1,10 @@
+inputs:
+  nixpkgs:
+    url: github:NixOS/nixpkgs/69fe226f16893feeefeb38a90eaf0bf47e115295
+  fenix:
+    url: github:nix-community/fenix
+    inputs:
+      nixpkgs:
+        follows: nixpkgs
+  devenv:
+    url: github:ulrikstrid/devenv/ulrikstrid--add-rust-targets?dir=src/modules

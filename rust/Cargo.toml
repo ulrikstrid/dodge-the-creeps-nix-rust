@@ -9,5 +9,5 @@ publish = false
 crate-type = ["cdylib"]
 
 [dependencies]
-godot = { path = "../../../godot", default-features = false, features = ["experimental-wasm"] }
+godot = { git = "https://github.com/godot-rust/gdext", branch = "master", default-features = false, features = ["experimental-wasm"] }
 rand = "0.8"
