@@ -15,3 +15,4 @@ target
 .godot
 *.import
 godot/plugin/rust
+export
